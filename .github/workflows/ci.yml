@@ -3,7 +3,7 @@ name: python-ci-workflow
 on: [push]
 
 jobs:
-  build:
+  check-application:
 
     runs-on: ubuntu-latest
 
